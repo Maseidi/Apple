@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: textRegular;
+    src: url(../fonts/text-regular.woff2);
+}
+
+@font-face {
+    font-family: textSemiBold;
+    src: url(../fonts/text-semibold.woff2);
+}
+
+@font-face {
+    font-family: textBold;
+    src: url(../fonts/text-bold.woff2);
+}
+
+@font-face {
+    font-family: displayRegular;
+    src: url(../fonts/display-regular.woff2);
+}
+
+@font-face {
+    font-family: displaySemiBold;
+    src: url(../fonts/display-semibold.woff2);
+}
+
+@font-face {
+    font-family: displayBold;
+    src: url(../fonts/display-bold.woff2);
+}
+
+@font-face {
+    font-family: iconRegular;
+    src: url(../fonts/icons-regular.woff2);
+}
+
+@font-face {
+    font-family: iconBold;
+    src: url(../fonts/icons-bold.woff2);
+}
