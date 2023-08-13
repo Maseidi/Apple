@@ -24,15 +24,25 @@ function unHoverBackDrop() {
 
 function refresh() {
     storeMenuEl.style.opacity = "0";
+    storeMenuEl.style.visibility = "hidden";
     macMenuEl.style.opacity = "0";
+    macMenuEl.style.visibility = "hidden";
     ipadMenuEl.style.opacity = "0";
+    ipadMenuEl.style.visibility = "hidden";
     iphoneMenuEl.style.opacity = "0";
+    iphoneMenuEl.style.visibility = "hidden";
     watchMenuEl.style.opacity = "0";
+    watchMenuEl.style.visibility = "hidden";
     airpodsMenuEl.style.opacity = "0";
+    airpodsMenuEl.style.visibility = "hidden";
     homeMenuEl.style.opacity = "0";
+    homeMenuEl.style.visibility = "hidden";
     entertainmentMenuEl.style.opacity = "0";
+    entertainmentMenuEl.style.visibility = "hidden";
     accessoriesMenuEl.style.opacity = "0";
+    accessoriesMenuEl.style.visibility = "hidden";
     supportMenuEl.style.opacity = "0";
+    supportMenuEl.style.visibility = "hidden";
 }
 
 function unHover() {
@@ -44,60 +54,70 @@ function hover1() {
     plateEl.style.height="373px";
     refresh()
     storeMenuEl.style.opacity = "1";
+    storeMenuEl.style.visibility = "visible";
 }
 
 function hover2() {
     plateEl.style.height="510px";
     refresh()
     macMenuEl.style.opacity = "1";
+    macMenuEl.style.visibility = "visible";
 }
 
 function hover3() {
     plateEl.style.height="470px";
     refresh()
     ipadMenuEl.style.opacity = "1";
+    ipadMenuEl.style.visibility = "visible";
 }
 
 function hover4() {
     plateEl.style.height="435px";
     refresh()
     iphoneMenuEl.style.opacity = "1";
+    iphoneMenuEl.style.visibility = "visible";
 }
 
 function hover5() {
     plateEl.style.height="435px";
     refresh()
     watchMenuEl.style.opacity = "1";
+    watchMenuEl.style.visibility = "visible";
 }
 
 function hover6() {
     plateEl.style.height="370px";
     refresh()
     airpodsMenuEl.style.opacity = "1";
+    airpodsMenuEl.style.visibility = "visible";
 }
 
 function hover7() {
     plateEl.style.height="340px";
     refresh()
     homeMenuEl.style.opacity = "1";
+    homeMenuEl.style.visibility = "visible";
 }
 
 function hover8() {
     plateEl.style.height="525px";
     refresh()
     entertainmentMenuEl.style.opacity = "1";
+    entertainmentMenuEl.style.visibility = "visible";
 }
 
 function hover9() {
     plateEl.style.height="410px";
     refresh()
     accessoriesMenuEl.style.opacity = "1";
+    accessoriesMenuEl.style.visibility = "visible";
 }
 
 function hover10() {
     plateEl.style.height="450px";
     refresh()
     supportMenuEl.style.opacity = "1";
+    supportMenuEl.style.visibility = "visible";
 }
 
 

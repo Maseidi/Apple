@@ -724,6 +724,7 @@ div.accessoriesMenu {
   right: 0;
   transition: 500ms;
   display: flex;
+  visibility: hidden;
   flex-flow: row wrap;
   gap: 40px;
   padding-left: 2.5%;
